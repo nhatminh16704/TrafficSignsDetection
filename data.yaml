@@ -1,0 +1,63 @@
+train: /content/dataset/images/train
+val: /content/dataset/images/val
+nc: 58  
+names: [
+    "Hết tất cả các lệnh cấm",              # 0
+    "Cấm đi ngược chiều",                   # 1
+    "Cấm xe ô tô",                          # 2
+    "Cấm ô tô rẽ phải",                     # 3
+    "Cấm ô tô rẽ trái",                     # 4
+    "Cấm xe mô tô",                         # 5
+    "Cấm xe tải",                           # 6
+    "Cấm xe tải trên 2.5 tấn",              # 7
+    "Cấm xe ô tô khách",                    # 8
+    "Cấm người đi bộ",                      # 9
+    "Hạn chế tải trọng toàn bộ xe",         # 10
+    "Hạn chế chiều cao xe",                 # 11
+    "Cấm rẽ trái",                          # 12
+    "Cấm rẽ phải",                          # 13
+    "Cấm quay đầu",                         # 14
+    "Cấm ô tô quay đầu",                    # 15
+    "Cấm rẽ trái và quay đầu",              # 16
+    "Cấm vượt",                             # 17
+    "Giới hạn tốc độ",                      # 18
+    "Cấm dùng còi",                         # 19
+    "Cấm dừng và đỗ xe 1",                  # 20
+    "Cấm dừng xe và đỗ xe 2",               # 21
+    "Cấm rẽ",                               # 22
+    "Đi chậm 2",                            # 23
+    "Chỉ được rẽ trái 1",                   # 24
+    "Chỉ được rẽ phải",                     # 25
+    "Chỉ được rẽ trái 2",                   # 26
+    "Hướng đi vòng chướng ngại vật sang phải",  # 27
+    "Hướng đi vòng chướng ngại vật sang trái",  # 28
+    "Nơi giao nhau chạy theo vòng xuyến",   # 29
+    "Đường một chiều",                      # 30
+    "Được phép quay đầu",                   # 31
+    "Bệnh viện",                            # 32
+    "Biển dừng xe buýt",                    # 33
+    "Cảnh báo chiều cao",                   # 34
+    "Chỗ ngoặt nguy hiểm bên trái",         # 35
+    "Chỗ ngoặt nguy hiểm bên phải",         # 36
+    "Nhiều chỗ ngoặt nguy hiểm liên tiếp bên trái",  # 37
+    "Nhiều chỗ ngoặt nguy hiểm liên tiếp bên phải",  # 38
+    "Đường hẹp bên trái",                   # 39
+    "Đường hẹp bên phải",                   # 40
+    "Giao nhau với đường cùng cấp",         # 41
+    "Giao nhau chữ T",                      # 42
+    "Giao nhau chữ T",                      # 43
+    "Giao nhau với đường không ưu tiên",    # 44
+    "Giao nhau với đường nhánh bên phải",   # 45
+    "Giao nhau với đường nhánh bên trái",   # 46
+    "Giao nhau với đường ưu tiên",          # 47
+    "Đèn giao thông",                       # 48
+    "Giao nhau với đường sắt có rào chắn",  # 49
+    "Dốc xuống nguy hiểm",                  # 50
+    "Đường không bằng phẳng",               # 51 
+    "Người đi bộ cắt ngang",                # 52
+    "Trẻ em",                               # 53
+    "Công trình đang thi công",             # 54
+    "Nguy hiểm khác",                       # 55
+    "Đường đôi",                            # 56
+    "Đi chậm"                               # 57 
+]
